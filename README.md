@@ -1,6 +1,6 @@
 # WAV to WEM Converter
 
-A Python script that batch converts `.wav` audio files to `.wem` format using **Audiokinetic Wwise 2024**. Built for Fromsoft modding workflows (Elden Ring, Lies of P, etc.) where you need properly named WEM files without dealing with Wwise's GUI or its cryptic numeric output filenames.
+A Python script that batch converts `.wav` audio files to `.wem` format using **Audiokinetic Wwise 2024**. Built for Fromsoft modding workflows where you need properly named WEM files without dealing with Wwise's GUI or its cryptic numeric output filenames.
 
 ---
 
