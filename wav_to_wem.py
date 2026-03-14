@@ -9,7 +9,9 @@ from pathlib import Path
 WWISE_CONSOLE  = r"C:\Program Files (x86)\Audiokinetic\Wwise2024.1.4.8780\Authoring\x64\Release\bin\WwiseConsole.exe"
 WWISE_PROJECT  = r"C:\Users\LENOVO LOQ\Documents\WwiseProjects\New Audio\New Audio.wproj"
 WWISE_GEN_DIR  = Path(r"C:\Users\LENOVO LOQ\Documents\WwiseProjects\New Audio\GeneratedSoundBanks\Windows")
-CONVERSION_PRESET = "PCM As Input"
+CONVERSION_PRESET = "Vorbis Quality High"
+# CONVERSION_PRESET = "PCM As Input"
+
 
 def check_wwise():
     if not os.path.exists(WWISE_CONSOLE):
