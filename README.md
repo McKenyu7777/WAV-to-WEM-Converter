@@ -1,4 +1,4 @@
-# WAV to WEM Converter
+f# WAV to WEM Converter
 
 A Python script that batch converts `.wav` audio files to `.wem` format using **Audiokinetic Wwise 2024**. Built for Fromsoft modding workflows where you need properly named WEM files without dealing with Wwise's GUI or its cryptic numeric output filenames.
 
@@ -46,7 +46,7 @@ Before running, you **must update 4 hardcoded paths** at the top of `wav_to_wem.
 WWISE_CONSOLE  = r"C:\Program Files (x86)\Audiokinetic\Wwise2024.1.4.8780\Authoring\x64\Release\bin\WwiseConsole.exe"
 WWISE_PROJECT  = r"C:\Users\LENOVO LOQ\Documents\WwiseProjects\New Audio\New Audio.wproj"
 WWISE_GEN_DIR  = Path(r"C:\Users\LENOVO LOQ\Documents\WwiseProjects\New Audio\GeneratedSoundBanks\Windows")
-CONVERSION_PRESET = "PCM As Input"
+CONVERSION_PRESET = "Vorbis Quality High"
 ```
 
 ### WWISE_CONSOLE
